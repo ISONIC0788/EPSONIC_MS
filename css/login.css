@@ -1,0 +1,161 @@
+input[type=text]
+{
+    width: 100%;
+    padding: 5px;
+}
+input[type=password]
+{
+    width: 100%;
+    padding: 5px;
+}
+.form-container
+{
+    /* border: 1px solid; */
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border-radius: 3px;
+    background-color:#cbdfe8 ;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+}
+.container-for-images
+{
+    display: flex;
+    justify-content: center;
+}
+img
+{
+    border-radius: 360px;
+}
+.login-form
+{
+    margin-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.all-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    
+}
+.cont-input
+{
+    width: 300px;
+    
+}
+.container-for-input
+{
+    margin-top: 10px;
+}
+label b
+{
+ font-size: 20px;
+}
+input[type=submit]
+{
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    background-color: rgb(31, 84, 183);
+}
+input[type=submit]:hover 
+{
+   background-color: rgba(139, 133, 133, 0.874);
+}
+body
+{
+    
+    background-color: rgb(240, 236, 236);
+}
+.container-forerror
+{
+    display: flex;
+    /* background-color: red; */
+   
+    justify-content: center;
+}
+.error-cont
+{
+    width: 500px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5) ;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #cbdfe8;
+
+}
+.circle
+{
+ height: 20px;
+ width: 20px;
+ 
+ 
+ display: flex;
+ position: absolute;
+ color: white;
+ justify-content: center;
+ border-radius: 360px;
+ background-color: red;
+}
+.cont-mess
+{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    
+    /* justify-content: center; */
+}
+.msg
+{
+    margin-left: 30px;
+}
+.cont-for-ll
+{
+    display: flex;
+    justify-content: center;
+}
+.cont-for-mess
+{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* background-color:#cbdfe8 ; */
+    margin-top: 10px;
+}
+.error-cont
+{
+    width: 500px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5) ;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #cbdfe8;
+
+}
+.msg
+{
+    color: red;
+    margin-left: 30px;
+}
+.cleckhere
+{
+    
+    text-decoration: none;
+}
+
+
+
+

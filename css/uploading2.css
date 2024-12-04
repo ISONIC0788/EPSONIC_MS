@@ -1,0 +1,19 @@
+.container-for-links ul
+{
+    display: flex;
+    width: 92%;
+    margin-top: 20px;
+    justify-content: space-around;
+ /* background-color:  red; */
+    /* justify-content: baseline; */
+    
+}
+.container-for-links ul li
+{
+ list-style-type: none;
+  
+}
+.container-for-links ul li a
+{
+    text-decoration: none;
+}

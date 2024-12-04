@@ -1,0 +1,180 @@
+.container-for-company-name
+{
+    display: flex;
+    
+    /* border: 1px solid; */
+    font-size: 35px;
+    font-family: fantasy;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+*{
+    margin: 0px;
+}
+.all-container
+{
+    display: flex;
+}
+.one-division
+{
+    width: 23%;
+    height: 800px;
+    border-right: 5px solid #cbdfe8;
+    background-image: linear-gradient(180deg ,white,#cbdfe8);
+}
+.two-division
+{
+    width: 100%;
+    
+    /* background-color: aqua; */
+}
+.link-container ul
+{
+    margin-left: -40px;
+    display: flex;
+}
+.link-container ul li
+{
+     /* margin-left: -30px; */
+    width: 100%;
+    /* margin-top: 10px; */
+    text-align: center;
+    height: 28px;
+    background-image: linear-gradient(180deg ,white,#cbdfe8);
+    border: 1px solid white;
+    list-style-type: none;
+}
+.link-container ul li a
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.container-for-localhost-name
+{
+    font-family: Arial, Helvetica, sans-serif;
+ background-image: linear-gradient(180deg ,white,#cbdfe8);
+}
+.link-two-container ul
+{
+    display: flex;
+    justify-content: space-around;
+}
+.link-two-container ul li
+{
+    list-style-type: none;
+}
+.link-two-container ul li a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.container-for-word
+{
+    display: flex;
+    justify-content: center;
+}
+.php
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.i-so
+{
+    color: rebeccapurple;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.admin
+{
+    color: rebeccapurple;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.fordb ul li
+{
+    font-family: Arial, Helvetica, sans-serif;   
+ 
+}
+.container-appearence-setting
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+    box-shadow: 0px 2px 2px 0px rgba(0,0, 0, 0.5);
+    /* border: 1px solid black; */
+}
+#headersetti
+{
+    font-family: Arial, Helvetica, sans-serif;   
+    display: flex;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(88, 151, 238);
+    font-weight: bold;
+    justify-content: center;
+    height: 40px;
+    background-image: linear-gradient(180deg ,white,#cbdfe8);
+}
+.container-for-gener-setting
+{
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0, 0, 0.5);
+
+}
+.container-for-database-server
+{
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0, 0, 0.5);
+
+}
+.container-for-logiout-button
+{
+    background-color:#cbdfe8 ;
+    margin-top: 10px;
+    height: 100px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-for-logout
+{
+    margin-top: 60px;
+}
+.button-2{
+    padding: 5px;
+    width: 70px;
+}
+.errormessage
+{
+    color: red;
+}
+.error-cont{
+    display: flex;
+    justify-content: center;
+}
+.button-3{
+    padding: 5px;
+}
+.container-for-action
+{
+    display: flex;
+    justify-content: center;
+}

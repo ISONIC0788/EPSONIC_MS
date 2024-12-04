@@ -1,0 +1,156 @@
+body
+{
+    background-color: rgb(240, 236, 236);
+}
+.email{
+    width: 100%;
+    padding: 5px;
+}
+.text
+{
+    width: 100%;
+    padding: 5px;
+}
+.container-for-form
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    background-color:#cbdfe8 ;
+}
+.container-for-avatar-image
+{
+    display: flex;
+    justify-content: center;
+}
+.img
+{
+    border-radius: 360px;
+}
+.container-for-input
+{
+    margin-top: 10px;
+}
+.container-button
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.container-for-all
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+/* .container-button
+{
+    /* margin-left: 20px; */
+    /* display: flex;
+    justify-content: flex-end; */
+/* } */ 
+.submi-button
+{
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    margin-right: -10px;
+    background-color: rgb(31, 84, 183);
+}
+.container-for-pervious-button
+{
+    margin-top: 10px;
+}
+.prev-button
+{
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    
+    margin-right: -10px;
+    background-color: rgb(255, 103, 48);   
+}
+.container-for-button2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberphone
+{
+    width: 100%;
+    padding: 5px;
+}
+.date-input
+{
+    width: 100%;
+    padding: 5px;  
+}
+.cont-for-ll
+{
+    display: flex;
+    justify-content: center;
+}
+.cont-for-mess
+{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* background-color:#cbdfe8 ; */
+    margin-top: 10px;
+}
+.error-cont
+{
+    width: 500px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5) ;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #cbdfe8;
+
+}
+.circle
+{
+ height: 20px;
+ width: 20px;
+ 
+ 
+ display: flex;
+ position: absolute;
+ color: white;
+ justify-content: center;
+ border-radius: 360px;
+ background-color: red;
+}
+.cont-mess
+{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    
+    /* justify-content: center; */
+}
+.msg
+{
+    color: red;
+    margin-left: 30px;
+}
+

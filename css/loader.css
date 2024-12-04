@@ -1,0 +1,48 @@
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    border-bottom: 8px solid #3498db;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 0.5s linear infinite;
+    animation: spin 0.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  /* //trakiin css */
+  #mydiv{
+    position: absolute;
+    background-color: rgb(211, 211, 230);
+    /* height: 100px;
+    width: 100px; */
+    z-index: 9;
+    text-align: center;
+
+  }
+  #mydivheader
+  {
+    background-color: aquamarine;
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+  }
+  .container-for-loader
+  {
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  body
+  {
+    background-color: aliceblue;
+  }

@@ -1,0 +1,121 @@
+.container-for-header
+{
+ display: flex;
+ justify-content: space-evenly;
+ height: 70px;
+ 
+ box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+ 
+ background-image: linear-gradient(180deg ,white,#0077b3);
+ 
+}
+*
+{
+    
+    margin: 0px;
+
+}
+body
+{
+    background-color:#cbdfe8 ;
+
+}
+.container-for-table
+{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg ,white,#0077b3);
+    
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.imageorg
+{
+    width: 100%;
+    height: 100%;
+}
+.container-for-all-personar-inf
+{
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* box-shadow: ; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+.container-for-desc-info
+{
+    width: 50%;
+    height: 20vh;
+    /* border: 1px solid black; */
+}
+.container-for-image
+{
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+
+}
+.container-all-div
+{
+    margin: 10px;
+    /* background-color: red;    */
+}
+.container-for-link ul 
+{
+    width: 100%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container-for-link ul li
+{ 
+    width: 50%;
+    padding: 5px;
+    align-content: center;
+    list-style-type: none;
+}
+.container-for-link ul li a
+{
+ text-decoration: none;
+}
+.container-for-link ul li:hover 
+{
+    transition: 0.5s;
+    border-bottom: 4px solid blue;
+    
+}
+.descpragaph
+{
+    padding: 5px;
+}
+.cont-form
+{
+    display: flex;
+    justify-content: center;
+}
+input[type=text]
+{
+    width: 370px;
+    padding: 8px;
+    border-right: none;
+    border-top: 2px  solid rgb(38, 171, 180);
+    border-bottom: 2px  solid rgb(38, 171, 180);
+    border-left:2px  solid rgb(38, 171, 180) ;
+    /* border: 2px  solid rgb(38, 171, 180); */
+ 
+}
+input[type=submit]
+{
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(38, 171, 180);
+}
