@@ -35,3 +35,11 @@ This project allows users to sign in, sign up, upload, view uploaded photos, per
 1. Clone the repository:
    ```bash
    git clone https://github.com/ISONIC0788/EPSONIC_MS.git
+### Navigate to the project directory:
+cmd
+cd EPSONIC_MS
+### Usage
+
+Open your web browser and go to http://your-server-address/EPSONIC_MS.
+Sign up for a new account or sign in with an existing account.
+Use the interface to upload photos, view uploaded photos, and manage your database.
